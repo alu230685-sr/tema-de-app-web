@@ -73,21 +73,91 @@ Esta separación facilita el mantenimiento, escalabilidad y pruebas de la aplica
 **Conclusión:**  
 Comprender estos fundamentos permite construir aplicaciones web modernas, funcionales y mantenibles, además de facilitar el trabajo en equipo y la integración de nuevas tecnologías.
 
-Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web
-1.-Diseño e implementación del frontend
-Maquetación/Wireframe/Mockup
-API
-2.-Diseño e implementación del backend
-Servidor
-Manejo de peticiones y respuestas HTTP
-Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)
-3.-Bases de datos
- Modelado de datos y relaciones
-ORM (Object Relational Mapping)
-CRUD desde el backend
-4.-Seguridad básica en aplicaciones web
-Validación de formularios
-Autenticación y autorización 
+# Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web
+
+---
+
+## 1. Diseño e implementación del frontend
+
+El **frontend** es la parte de la aplicación web con la que interactúa el usuario. Su desarrollo implica diseñar la interfaz y construir la lógica que se ejecuta en el navegador.
+
+### Maquetación / Wireframe / Mockup
+
+- **Wireframe:** Esquema básico y funcional de la interfaz, normalmente dibujado en papel o software especializado. Define la estructura y ubicación de los elementos principales.
+- **Mockup:** Prototipo visual más detallado, muestra colores, tipografía y diseño final pero sin interactividad.
+- **Maquetación:** Proceso de convertir el diseño (mockup) en código HTML, CSS y JavaScript. Se crean los componentes visuales y la estructura de la página web.
+
+### API
+
+El frontend se comunica con el backend mediante **APIs** (Interfaz de Programación de Aplicaciones). A través de llamadas HTTP (fetch, axios), el frontend solicita datos, envía información y recibe respuestas para actualizar la interfaz dinámicamente.
+
+---
+
+## 2. Diseño e implementación del backend
+
+El **backend** es la lógica y procesamiento que ocurre en el servidor, invisible para el usuario pero esencial para el funcionamiento de la aplicación.
+
+### Servidor
+
+El servidor ejecuta el código que procesa las solicitudes del cliente, accede a bases de datos y envía respuestas. Puede estar construido con tecnologías como Node.js, PHP, Python (Django/Flask), Java (Spring), etc.
+
+### Manejo de peticiones y respuestas HTTP
+
+- El backend recibe **peticiones HTTP** (GET, POST, PUT, DELETE, etc.) desde el frontend o servicios externos.
+- Procesa la solicitud, realiza operaciones (consultar, guardar, modificar datos) y envía una **respuesta HTTP** con el resultado (datos, mensajes de estado, etc.).
+
+### Conexión a bases de datos
+
+El backend debe conectarse a una base de datos para almacenar y recuperar información. Ejemplos de sistemas de bases de datos:
+
+- **MySQL/PostgreSQL:** Bases de datos relacionales, estructuran datos en tablas relacionadas.
+- **MongoDB:** Base de datos NoSQL orientada a documentos, almacena información en formato JSON/BSON.
+
+---
+
+## 3. Bases de datos
+
+### Modelado de datos y relaciones
+
+El **modelado de datos** implica definir las entidades (por ejemplo, usuarios, productos) y cómo se relacionan entre sí (uno a uno, uno a muchos, muchos a muchos). En bases de datos relacionales, esto se traduce en tablas y claves foráneas.
+
+### ORM (Object Relational Mapping)
+
+Un **ORM** es una herramienta que permite trabajar con bases de datos usando objetos en el lenguaje de programación del backend. Ejemplo: Sequelize (Node.js), SQLAlchemy (Python), Doctrine (PHP).
+
+- Facilita consultas, inserciones y actualizaciones sin escribir SQL directamente.
+- Permite mapear modelos de datos a tablas de la base de datos.
+
+### CRUD desde el backend
+
+**CRUD** significa **Create, Read, Update, Delete** (Crear, Leer, Actualizar, Eliminar). El backend implementa estas operaciones para que el frontend pueda gestionar datos a través de la API.
+
+Ejemplo de endpoints:
+- **POST /usuarios** → Crear usuario
+- **GET /usuarios** → Leer usuarios
+- **PUT /usuarios/:id** → Actualizar usuario
+- **DELETE /usuarios/:id** → Eliminar usuario
+
+---
+
+## 4. Seguridad básica en aplicaciones web
+
+La seguridad protege la aplicación y los datos de los usuarios frente a amenazas y errores.
+
+### Validación de formularios
+
+- Validar los datos ingresados por el usuario tanto en el frontend como en el backend.
+- Prevenir ataques como la inyección de código o envío de datos maliciosos.
+
+### Autenticación y autorización
+
+- **Autenticación:** Verifica la identidad del usuario (login con usuario y contraseña, tokens, OAuth).
+- **Autorización:** Determina qué acciones puede realizar el usuario según sus permisos o roles (administrador, usuario normal).
+
+---
+
+**Conclusión:**  
+El desarrollo de componentes y funcionalidades de una aplicación web requiere coordinar el diseño visual, la lógica del servidor, la gestión de datos y la seguridad para crear aplicaciones robustas y eficientes.
 
 Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional
 1. -Integración de frontend y backend
