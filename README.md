@@ -1,9 +1,10 @@
-# tema-de-app-web
+# temario-de-app-web
 # Propósito de Aprendizaje 1: Comprender los fundamentos del desarrollo de aplicaciones web
 
 ---
 
 ## 1. Introducción al desarrollo web
+<img width="364" height="178" alt="image" src="https://github.com/user-attachments/assets/86e73d4f-0cdf-4388-84a9-a1029760225d" />
 
 El **desarrollo web** consiste en la creación y mantenimiento de sitios o aplicaciones accesibles a través de navegadores. Su propósito es permitir la interacción entre usuarios y sistemas, brindando información, servicios y experiencias digitales.
 
@@ -74,6 +75,7 @@ Esta separación facilita el mantenimiento, escalabilidad y pruebas de la aplica
 Comprender estos fundamentos permite construir aplicaciones web modernas, funcionales y mantenibles, además de facilitar el trabajo en equipo y la integración de nuevas tecnologías.
 
 # Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web
+<img width="207" height="188" alt="image" src="https://github.com/user-attachments/assets/caad6d8b-3322-4296-9d53-762ee1491f19" />
 
 ---
 
@@ -160,6 +162,7 @@ La seguridad protege la aplicación y los datos de los usuarios frente a amenaza
 El desarrollo de componentes y funcionalidades de una aplicación web requiere coordinar el diseño visual, la lógica del servidor, la gestión de datos y la seguridad para crear aplicaciones robustas y eficientes.
 
 # Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional
+<img width="308" height="168" alt="image" src="https://github.com/user-attachments/assets/5f1e84fd-36dc-4cd1-adc4-d54709d2e751" />
 
 ---
 
